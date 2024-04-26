@@ -7,18 +7,17 @@ s.InputBufferSize = 100;
 bg = 260; % background data
 
 number = 300;
-standard = 120;
-valocity = 0.5;
-distance = 20;
+standard = 40;
+valocity = 1.0;
+distance = 10;
 check = 1;
 
+//
 Center_X = 136;
 Center_Y = 148;
-%Center_X = 136;
-%Center_Y = 148;
 
 fopen(s);
-% 
+
 fprintf(s,"done");
 
 % --------Input Data to Arduino------------ %
